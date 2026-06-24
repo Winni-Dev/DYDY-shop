@@ -1,0 +1,65 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+  
+  body {
+    @apply font-poppins text-elegant bg-pearl;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-playfair;
+  }
+}
+
+@layer components {
+  .gradient-primary {
+    background: linear-gradient(135deg, #F5D6E6, #7A4E8A);
+  }
+  
+  .gradient-text {
+    background: linear-gradient(135deg, #7A4E8A, #D4B483);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+  }
+
+  .card-premium {
+    @apply transition-shadow duration-300 bg-white shadow-lg rounded-card hover:shadow-xl;
+  }
+
+  .btn-primary {
+    @apply px-8 py-3 font-semibold text-white transition-all duration-300 transform bg-prune rounded-button hover:bg-opacity-90 hover:scale-105;
+  }
+
+  .btn-secondary {
+    @apply px-8 py-3 font-semibold text-white transition-all duration-300 transform bg-champagne rounded-button hover:bg-opacity-90 hover:scale-105;
+  }
+}
+
+/* Scrollbar personnalisée */
+::-webkit-scrollbar {
+  width: 4px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgba(122, 78, 138, 0.15);
+  border-radius: 999px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(122, 78, 138, 0.3);
+}
+
+* {
+  scrollbar-width: thin;
+  scrollbar-color: rgba(122, 78, 138, 0.15) transparent;
+}
