@@ -251,7 +251,7 @@ const Founder = () => {
             {/* Signature */}
             <div className="mb-12">
               <h3 className="text-2xl font-medium lg:text-3xl font-playfair text-elegant">
-                Diane YAO
+               Divine Kambou
               </h3>
               <p className="mt-1 text-sm font-light tracking-wider text-champagne">
                 Fondatrice & Directrice Artistique

@@ -102,13 +102,14 @@ import { useState, useEffect, useCallback } from 'react'
 import { motion, AnimatePresence } from 'framer-motion'
 import { ArrowRight } from 'lucide-react'
 import soin from '../IMAGES/soin.png'
+import ongleacc from '../IMAGES/ongleacc.jpeg'
 
 const slides = [
   {
     image: 'https://images.unsplash.com/photo-1604654894610-df63bc536371?q=80&w=2070&auto=format&fit=crop',
   },
   {
-    image: 'https://images.pexels.com/photos/34871553/pexels-photo-34871553.jpeg',
+    image: ongleacc,
   },
   {
     image: soin,

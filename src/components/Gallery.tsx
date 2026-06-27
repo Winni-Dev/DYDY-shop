@@ -145,6 +145,10 @@ import { motion, AnimatePresence } from 'framer-motion'
 import { useInView } from 'framer-motion'
 import { useRef } from 'react'
 import { X, ChevronLeft, ChevronRight } from 'lucide-react'
+import ongleacc from '../IMAGES/ongleacc.jpeg'
+import ongle1 from '../IMAGES/ongle1.jpeg'
+import ongle2 from '../IMAGES/ongle2.jpeg'
+import ongle3 from '../IMAGES/ongle3.jpeg'
 
 const Gallery = () => {
   const [activeFilter, setActiveFilter] = useState('all')
@@ -160,14 +164,14 @@ const Gallery = () => {
   ]
 
   const galleryItems = [
-    { id: 1, src: 'https://images.unsplash.com/photo-1604654894610-df63bc536371?q=80&w=800', category: 'nails', title: 'French Manucure Premium' },
-    { id: 2, src: 'https://images.unsplash.com/photo-1607779097040-26e80aa78e66?q=80&w=800', category: 'nails', title: 'Nail Art Créatif' },
+    { id: 1, src: ongleacc, category: 'nails', title: 'French Manucure Premium' },
+    { id: 2, src: ongle3, category: 'nails', title: 'Nail Art Créatif' },
     { id: 3, src: 'https://images.pexels.com/photos/13221802/pexels-photo-13221802.jpeg', category: 'wigs', title: 'Perruque Naturelle' },
     { id: 4, src: 'https://images.pexels.com/photos/5591912/pexels-photo-5591912.jpeg', category: 'bags', title: 'Sac Élégant' },
-    { id: 5, src: 'https://images.unsplash.com/photo-1519014816548-bf5fe059798b?q=80&w=800', category: 'nails', title: 'Gel Parfait' },
+    { id: 5, src: ongle2, category: 'nails', title: 'Gel Parfait' },
     { id: 6, src: 'https://images.pexels.com/photos/17652445/pexels-photo-17652445.jpeg', category: 'wigs', title: 'Style Glamour' },
     { id: 7, src: 'https://images.pexels.com/photos/31929486/pexels-photo-31929486.jpeg', category: 'bags', title: 'Accessoire Luxe' },
-    { id: 8, src: 'https://images.unsplash.com/photo-1604654894610-df63bc536371?q=80&w=800', category: 'nails', title: 'Design Unique' }
+    { id: 8, src: ongle1, category: 'nails', title: 'Design Unique' }
   ]
 
   const filteredItems = activeFilter === 'all' 
