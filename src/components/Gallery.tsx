@@ -149,6 +149,16 @@ import ongleacc from '../IMAGES/ongleacc.jpeg'
 import ongle1 from '../IMAGES/ongle1.jpeg'
 import ongle2 from '../IMAGES/ongle2.jpeg'
 import ongle3 from '../IMAGES/ongle3.jpeg'
+import P1 from '../IMAGES/P1.jpeg'
+import P2 from '../IMAGES/P2.jpeg'
+import P3 from '../IMAGES/P3.jpeg'
+import P4 from '../IMAGES/P4.jpeg'
+import P5 from '../IMAGES/P5.jpeg'
+import P6 from '../IMAGES/P6.jpeg'
+import S1 from '../IMAGES/S1.jpeg'
+import S2 from '../IMAGES/S2.jpeg'
+import S3 from '../IMAGES/S3.jpeg'
+import S4 from '../IMAGES/S4.jpeg'
 
 const Gallery = () => {
   const [activeFilter, setActiveFilter] = useState('all')
@@ -166,14 +176,20 @@ const Gallery = () => {
   const galleryItems = [
     { id: 1, src: ongleacc, category: 'nails', title: 'French Manucure Premium' },
     { id: 2, src: ongle3, category: 'nails', title: 'Nail Art Créatif' },
-    { id: 3, src: 'https://images.pexels.com/photos/13221802/pexels-photo-13221802.jpeg', category: 'wigs', title: 'Perruque Naturelle' },
-    { id: 4, src: 'https://images.pexels.com/photos/5591912/pexels-photo-5591912.jpeg', category: 'bags', title: 'Sac Élégant' },
+    { id: 3, src: P4, category: 'wigs', title: 'Perruque Naturelle' },
+    { id: 4, src: P5, category: 'wigs', title: 'Perruque Élégante' },
     { id: 5, src: ongle2, category: 'nails', title: 'Gel Parfait' },
-    { id: 6, src: 'https://images.pexels.com/photos/17652445/pexels-photo-17652445.jpeg', category: 'wigs', title: 'Style Glamour' },
-    { id: 7, src: 'https://images.pexels.com/photos/31929486/pexels-photo-31929486.jpeg', category: 'bags', title: 'Accessoire Luxe' },
-    { id: 8, src: ongle1, category: 'nails', title: 'Design Unique' }
+    { id: 6, src: P6, category: 'wigs', title: 'Style Glamour' },
+    { id: 7, src: S3, category: 'bags', title: 'Accessoire Luxe' },
+    { id: 8, src: ongle1, category: 'nails', title: 'Design Unique' },
+    { id: 9, src: P3, category: 'wigs', title: 'Perruque Naturelle' },
+     { id: 10, src: P2, category: 'wigs', title: 'Perruque Naturelle' },
+      { id: 11, src: P1, category: 'wigs', title: 'Perruque Naturelle' },
+      { id: 12, src: S4, category: 'bags', title: 'Accessoire Luxe' },
+      { id: 13, src: S1, category: 'bags', title: 'Accessoire Luxe' },
+      { id: 14, src: S2, category: 'bags', title: 'Accessoire Luxe' },
   ]
-
+  
   const filteredItems = activeFilter === 'all' 
     ? galleryItems 
     : galleryItems.filter(item => item.category === activeFilter)

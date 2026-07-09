@@ -90,6 +90,10 @@
 import { motion } from 'framer-motion'
 import { useInView } from 'framer-motion'
 import { useRef } from 'react'
+import metec from '../IMAGES/metec.jpeg'
+import ongle from '../IMAGES/ongle.jpeg'
+import PE from '../IMAGES/PE.jpeg'
+import acc from '../IMAGES/acc.jpeg'
 
 const Team = () => {
   const ref = useRef(null)
@@ -99,20 +103,26 @@ const Team = () => {
     {
       name: 'Marie Kouassi',
       role: 'Experte Onglerie',
-      image: 'https://images.pexels.com/photos/33954068/pexels-photo-33954068.jpeg',
+      image: metec,
       description: 'Plus de 8 ans d\'expérience en Nail Art et techniques avancées.'
     },
     {
       name: 'Awa Diarra',
-      role: 'Spécialiste Soins Visage',
-      image: 'https://images.pexels.com/photos/30938726/pexels-photo-30938726.jpeg',
-      description: 'Experte en soins du visage et massages relaxants.'
+      role: 'Experte Onglerie',
+      image: ongle,
+      description: 'Plus de 3 ans d\'expérience en Nail Art et techniques avancées.'
     },
     {
+      name: 'Djamila',
+      role: 'Styliste Perruques',
+      image: PE,
+      description: 'Conseillère experte en coiffure.'
+    },
+     {
       name: 'Fatou Bamba',
       role: 'Styliste Perruques',
-      image: 'https://images.pexels.com/photos/11830095/pexels-photo-11830095.jpeg',
-      description: 'Conseillère experte en coiffure et accessoires.'
+      image: acc,
+      description: 'Conseillère experte en accessoires.'
     }
   ]
 
