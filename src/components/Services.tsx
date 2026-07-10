@@ -276,21 +276,21 @@ const Services = () => {
       icon: Hand,
       title: 'Manucure',
       description: 'Des soins complets pour des mains douces et des ongles parfaitement entretenus.',
-      price: 'À partir de 3.000 FCFA',
+      price: 'À partir de 2.000 FCFA',
       features: ['Soin complet', 'Massage', 'Hydratation', 'Vernis inclus']
     },
     {
       icon: Footprints,
       title: 'Pédicure',
       description: 'Prenez soin de vos pieds avec nos pédicures relaxantes et professionnelles.',
-      price: 'À partir de 5.000 FCFA',
+      price: 'À partir de 7.000 FCFA',
       features: ['Bain relaxant', 'Gommage', 'Massage', 'Semi-permanent']
     },
     {
       icon: Smile,
       title: 'Soins du visage',
       description: 'Des soins adaptés à votre peau pour un teint éclatant et une peau revitalisée.',
-      price: 'À partir de 7.500 FCFA',
+      price: 'À partir de 5.000 FCFA',
       features: ['Nettoyage', 'Hydratation', 'Masque', 'Soin personnalisé']
     },
     {
@@ -304,7 +304,7 @@ const Services = () => {
       icon: ScissorsLineDashed,
       title: 'Épilation à la cire',
       description: 'Épilation précise et douce pour une peau lisse et nette durablement.',
-      price: 'À partir de 3.000 FCFA',
+      price: 'À partir de 5.000 FCFA',
       features: ['Jambes', 'Aisselles', 'Maillot', 'Visage']
     },
     {

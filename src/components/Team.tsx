@@ -101,13 +101,13 @@ const Team = () => {
 
   const teamMembers = [
     {
-      name: 'Marie Kouassi',
+      name: 'Grâce Nancy',
       role: 'Experte Onglerie',
       image: metec,
-      description: 'Plus de 8 ans d\'expérience en Nail Art et techniques avancées.'
+      description: 'Receptionniste et accueillante, elle vous accompagne avec professionnalisme et sourire.'
     },
     {
-      name: 'Awa Diarra',
+      name: 'Any',
       role: 'Experte Onglerie',
       image: ongle,
       description: 'Plus de 3 ans d\'expérience en Nail Art et techniques avancées.'
@@ -119,7 +119,7 @@ const Team = () => {
       description: 'Conseillère experte en coiffure.'
     },
      {
-      name: 'Fatou Bamba',
+      name: 'Allou Ange',
       role: 'Styliste Perruques',
       image: acc,
       description: 'Conseillère experte en accessoires.'
