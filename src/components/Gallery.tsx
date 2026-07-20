@@ -159,6 +159,8 @@ import S1 from '../IMAGES/S1.jpeg'
 import S2 from '../IMAGES/S2.jpeg'
 import S3 from '../IMAGES/S3.jpeg'
 import S4 from '../IMAGES/S4.jpeg'
+import ongless from '../IMAGES/ongleeesss.jpeg'
+import ongleeee from '../IMAGES/ongleee.jpeg'
 
 const Gallery = () => {
   const [activeFilter, setActiveFilter] = useState('all')
@@ -188,6 +190,8 @@ const Gallery = () => {
       { id: 12, src: S4, category: 'bags', title: 'Accessoire Luxe' },
       { id: 13, src: S1, category: 'bags', title: 'Accessoire Luxe' },
       { id: 14, src: S2, category: 'bags', title: 'Accessoire Luxe' },
+      { id: 15, src: ongless, category: 'nails', title: 'Design Unique' },
+      { id: 16, src: ongleeee, category: 'nails', title: 'Design Unique' },
   ]
   
   const filteredItems = activeFilter === 'all' 
